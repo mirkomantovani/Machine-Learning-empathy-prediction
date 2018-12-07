@@ -4,8 +4,16 @@
 
 CS 412 Machine Learning final Project
 
-## Running the program
 ---
+
+## Notebook
+
+The notebook containing all the analysis workflow that I have done is: workflow.ipynb. PCAtest.ipynb is an additional small notebook where I tried PCA that was not included in the end.
+
+---
+
+## Running the program
+
 To run the program from terminal just use the command:
 > python train.py
 The train.py script executes the preprocessing of the data and as well as the evaluation on some basic models and the definition of a baseline,
