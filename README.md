@@ -16,10 +16,14 @@ The notebook containing all the analysis workflow that I have done is: workflow.
 
 To run the program from terminal just use the command:
 > python train.py
+
 The train.py script executes the preprocessing of the data and as well as the evaluation on some basic models and the definition of a baseline,
 it then splits on train/dev/set, tunes the hyperparameters for the 2 models (XGBoost and Random Forest) constituting the final model ensemble, trains, saves the models and test set, and tests, producing the final accuracy
+
 > python test.py
+
 The test.py script only retrieves the final models, tests and prints the accuracy (it's only the final part of the train.py script to make it easier and faster to test without having to go through train and hyperparameters tuning)
+
 ---
 ## Modules and libraries
 To run the train.py script you need the following python modules:
