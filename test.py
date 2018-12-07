@@ -1,6 +1,8 @@
 import pickle
 from numpy import *
 
+print('\n---------- TESTING FINAL MODEL trained on 80% and testing on 20% holdout ----------\n')
+
 print('Loading XGBoost model')
 filename = 'final_xgb.sav'
 gbm = pickle.load(open(filename, 'rb'))
