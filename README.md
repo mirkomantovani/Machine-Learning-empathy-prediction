@@ -54,9 +54,9 @@ Accuracy: 0.6616915422885572
 ---------- COMPLEX MODELS, ensembles ----------
 
 Random forest regressor and conversion to 0-1  
-Accuracy on Test 0.6766169154228856Accuracy on Train 0.9987562189054726  
+Accuracy on Test 0.7064676616915423Accuracy on Train 0.9850746268656716  
 Random forest binary classifier 20-fold CV  
-Accuracy 0.6984705882352941  
+Accuracy 0.702549019607843  
 
 ---------- BUILDING FINAL MODEL ----------
 

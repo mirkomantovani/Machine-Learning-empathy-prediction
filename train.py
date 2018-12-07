@@ -234,8 +234,8 @@ print('Random forest regressor and conversion to 0-1')
 selected_features = predicting_features
 x = np.array(df[selected_features])
 y = np.array(df['Empathy'])
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=23)
-RFR = RandomForestRegressor(n_estimators=300, n_jobs=-1, verbose=0)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=66)
+RFR = RandomForestRegressor(n_estimators=50, n_jobs=-1, verbose=0)
 RFR.fit(x_train, y_train)
 y_hat = RFR.predict(x_test)
 def transform_contininous_in_binary(empathy_level):
